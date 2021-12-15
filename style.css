@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 100, 36, 1) 0%,
+    rgba(9, 64, 150, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  margin-top: 5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  border: 1px solid red;
+}
